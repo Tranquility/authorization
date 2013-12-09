@@ -8,7 +8,7 @@ import (
 func main() {
         app := cli.NewApp()
         app.Name = "authorization"
-        app.Usage = "Manager ssh authorizations"
+        app.Usage = "Manage ssh authorizations"
         app.Version = "0.1.0"
         app.Commands = []cli.Command {
                 {
